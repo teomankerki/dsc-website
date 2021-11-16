@@ -26,7 +26,7 @@
     margin: 0px 20px;
     font-size: 22px;
     color: #fff;
-    font-family: "Canela Deck Web";
+    font-family: "Garamond (serif)";
 }
 
 .navbar ul li:hover {
@@ -42,7 +42,7 @@
 }
 
 
-/** body **/ 
+/** body **/
 
 body {
     font-family: "Canela Deck Web";
@@ -71,7 +71,7 @@ body {
     border-color: #7e0c1e;
     margin-top: 20px;
     display: block;
-    
+
 }
 
  .col-3 {
@@ -143,7 +143,7 @@ body {
 
 
 
-/**** mobile ****/ 
+/**** mobile ****/
 @media screen and (max-width: 680px) {
     .navbar ul li {
         display: block;

@@ -2,22 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Canela Deck Web";
+    font-family: 'Garamond', serif;
 }
 
 
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Garamond', serif;
     font-size: 17px;
     font-weight: 300;
     overflow-x: hidden;
-    color: white;
-    background-color: #2C353C;
+    color: #ECECEA;
+    background-color: #3482A4;
     position: relative;
 }
 
-a { 
-    transition: all 0.3s ease; 
+a {
+    transition: all 0.3s ease;
     text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ div h2 {
     margin: auto;
     align-items: center;
     z-index: -1;
-    position:relative;  
+    position:relative;
 }
 
 #d1 {
@@ -40,6 +40,7 @@ div h2 {
     left: auto;
     margin: auto;
     align-items: center;
+
 }
 
 #DTop{
@@ -51,25 +52,8 @@ div h2 {
     position: fixed;
     box-shadow: 0px 2px 6px 0px rgb(29, 29, 29);
     z-index: -1;
-    position:relative;  
-    
-}
+    position:relative;
 
-#navbar{
-    display: flex;
-    justify-content: right;
-    width: 100%;
-    height: 60px;
-    align-items: center;
-    background-color: rgb(5, 24, 53);
-    border-top: 2px solid #7e0c1e;
-    position: fixed;
-    box-shadow: 0px 2px 6px 0px rgb(29, 29, 29);
-    
-}
-
-#navbar a{
-    text-decoration: none;
 }
 
 
@@ -84,7 +68,7 @@ div h2 {
     width: 60%;
     background: rgb(221, 221, 221);
     border: 2px solid rgb(175, 175, 175);
-}   
+}
 
 .content{
     display: flex;
@@ -106,6 +90,44 @@ div h2 {
     height: 200px;
 }
 
+#navbar{
+    font-family: "Courier New", monospace;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    background-color: rgb(5, 24, 53);
+    border-top: 2px solid #7e0c1e;
+    position: fixed;
+    box-shadow: 0px 2px 6px 0px rgb(29, 29, 29);
+}
+
+#navlist li{
+    display: inline;
+    padding: 0 5px;
+    color: rgb(225, 225, 225);
+    font-size: 22px;
+    transition: all .3s ease-in-out;
+    margin: 0px 20px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(219, 219, 219);
+}
+
+
+#navlist li:hover{
+    color:white;
+    transform: scale(1.4);
+    text-decoration: underline;
+}
+
+#DSC{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 30px;
+}
+
 .content h2{
     font-size: 38px;
     color: rgb(0, 0, 0);
@@ -120,15 +142,19 @@ div h2 {
     font-size: 20px;
 }
 
-#DSC{
-    width: 60px;
-    height: 30px;
-    position: absolute;
-    left: 15px;
-}
-
 tr.spaceunder>td {
     padding-bottom: 50px;
 }
 
+.footer_div{
+    background-color: #2A7C6F	;
+    color: rgb(34, 34, 34);
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #2A7C6F	;
+}
 
+.footer_div img{
+    width: 70px;
+    height: 35px;
+}

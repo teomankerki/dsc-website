@@ -94,7 +94,7 @@ b{
     margin: auto;
     width: 60%;
     background: rgb(212, 212, 212);
-}  
+}
 
 .content{
     text-align: center;
@@ -124,11 +124,11 @@ b{
 }
 
 .footer_div{
-    background-color: rgb(221, 221, 221);
+    background-color: #2A7C6F	;
     color: rgb(34, 34, 34);
     width: 100%;
     text-align: center;
-    border-top: 2px solid rgb(216, 216, 216);
+    border-top: 2px solid #2A7C6F	;
 }
 
 .footer_div img{
